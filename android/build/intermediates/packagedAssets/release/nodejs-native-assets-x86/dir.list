@@ -1,0 +1,9 @@
+node_modules
+node_modules/sqlite3
+node_modules/sqlite3/lib
+node_modules/sqlite3/lib/binding
+node_modules/sqlite3/lib/binding/node_abi-platform-arch
+node_modules/sqlite3/lib/binding/node-v67-darwin-x64
+node_modules/sqlite3/build
+node_modules/sqlite3/build/Release
+node_modules/sqlite3/build/Release/obj.target

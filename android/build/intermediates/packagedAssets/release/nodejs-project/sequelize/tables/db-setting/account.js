@@ -1,0 +1,24 @@
+'use strict';
+module.exports = (sequelize, DataTypes) => {
+    const account = sequelize.define('account', {
+        id: {
+            allowNull: false,
+            primaryKey: true,
+            defaultValue: DataTypes.UUIDV4,
+            type: DataTypes.UUID
+        },
+        companyId: DataTypes.STRING,
+        companyName: DataTypes.STRING,
+        outletId: DataTypes.STRING,
+        outletName: DataTypes.STRING,
+        authKey: DataTypes.STRING,
+        lastUserId: DataTypes.STRING,
+        accessToken: DataTypes.STRING,
+        refreshToken: DataTypes.STRING,
+    });
+    account.associate = function (models) {
+        // associations can be defined here
+    };
+    return account;
+};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYWNjb3VudC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uL3NyYy9zZXF1ZWxpemUvdGFibGVzL2RiLXNldHRpbmcvYWNjb3VudC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxZQUFZLENBQUM7QUFDYixNQUFNLENBQUMsT0FBTyxHQUFHLENBQUMsU0FBUyxFQUFFLFNBQVMsRUFBRSxFQUFFO0lBQ3hDLE1BQU0sT0FBTyxHQUFHLFNBQVMsQ0FBQyxNQUFNLENBQzlCLFNBQVMsRUFDVDtRQUNFLEVBQUUsRUFBRTtZQUNGLFNBQVMsRUFBRSxLQUFLO1lBQ2hCLFVBQVUsRUFBRSxJQUFJO1lBQ2hCLFlBQVksRUFBRSxTQUFTLENBQUMsTUFBTTtZQUM5QixJQUFJLEVBQUUsU0FBUyxDQUFDLElBQUk7U0FDckI7UUFDRCxTQUFTLEVBQUUsU0FBUyxDQUFDLE1BQU07UUFDM0IsV0FBVyxFQUFFLFNBQVMsQ0FBQyxNQUFNO1FBQzdCLFFBQVEsRUFBRSxTQUFTLENBQUMsTUFBTTtRQUMxQixVQUFVLEVBQUUsU0FBUyxDQUFDLE1BQU07UUFDNUIsT0FBTyxFQUFFLFNBQVMsQ0FBQyxNQUFNO1FBQ3pCLFVBQVUsRUFBRSxTQUFTLENBQUMsTUFBTTtRQUM1QixXQUFXLEVBQUUsU0FBUyxDQUFDLE1BQU07UUFDN0IsWUFBWSxFQUFFLFNBQVMsQ0FBQyxNQUFNO0tBQy9CLENBQ0YsQ0FBQztJQUVGLE9BQU8sQ0FBQyxTQUFTLEdBQUcsVUFBUyxNQUFNO1FBQ2pDLG1DQUFtQztJQUNyQyxDQUFDLENBQUM7SUFFRixPQUFPLE9BQU8sQ0FBQztBQUNqQixDQUFDLENBQUMifQ==

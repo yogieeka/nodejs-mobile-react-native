@@ -1,0 +1,7 @@
+# ninja log v5
+1	754	0	CMakeFiles/nodejs-mobile-react-native-native-lib.dir/src/main/cpp/native-lib.cpp.o	f60c173456e7c13e
+1	1399	0	CMakeFiles/nodejs-mobile-react-native-native-lib.dir/src/main/cpp/rn-bridge.cpp.o	aa60a90d0b557279
+1399	1557	0	../../../../build/intermediates/cmake/release/obj/armeabi-v7a/libnodejs-mobile-react-native-native-lib.so	102e19a06c9cde4d
+3	791	0	CMakeFiles/nodejs-mobile-react-native-native-lib.dir/src/main/cpp/native-lib.cpp.o	f60c173456e7c13e
+3	1477	0	CMakeFiles/nodejs-mobile-react-native-native-lib.dir/src/main/cpp/rn-bridge.cpp.o	aa60a90d0b557279
+1477	1637	0	../../../../build/intermediates/cmake/release/obj/armeabi-v7a/libnodejs-mobile-react-native-native-lib.so	102e19a06c9cde4d
