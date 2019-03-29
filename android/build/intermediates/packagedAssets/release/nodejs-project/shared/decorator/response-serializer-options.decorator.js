@@ -1,6 +1,0 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-const common_1 = require("@nestjs/common");
-exports.ResponseSerializerOptionsDecoratorMetadataId = 'ResponseSerializerOptions';
-exports.ResponseSerializerOptions = (options) => common_1.ReflectMetadata(exports.ResponseSerializerOptionsDecoratorMetadataId, options);
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicmVzcG9uc2Utc2VyaWFsaXplci1vcHRpb25zLmRlY29yYXRvci5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3NyYy9zaGFyZWQvZGVjb3JhdG9yL3Jlc3BvbnNlLXNlcmlhbGl6ZXItb3B0aW9ucy5kZWNvcmF0b3IudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQSwyQ0FBaUQ7QUFFcEMsUUFBQSw0Q0FBNEMsR0FDdkQsMkJBQTJCLENBQUM7QUFNakIsUUFBQSx5QkFBeUIsR0FBRyxDQUFDLE9BQW1DLEVBQUUsRUFBRSxDQUMvRSx3QkFBZSxDQUFDLG9EQUE0QyxFQUFFLE9BQU8sQ0FBQyxDQUFDIn0=
