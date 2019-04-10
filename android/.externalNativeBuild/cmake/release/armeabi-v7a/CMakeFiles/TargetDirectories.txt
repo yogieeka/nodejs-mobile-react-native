@@ -1,3 +1,0 @@
-/Users/yogieka/Documents/luna/luna-moble/node_modules/nodejs-mobile-react-native/android/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/edit_cache.dir
-/Users/yogieka/Documents/luna/luna-moble/node_modules/nodejs-mobile-react-native/android/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/rebuild_cache.dir
-/Users/yogieka/Documents/luna/luna-moble/node_modules/nodejs-mobile-react-native/android/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/nodejs-mobile-react-native-native-lib.dir
