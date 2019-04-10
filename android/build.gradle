@@ -11,7 +11,7 @@ buildscript {
 
 apply plugin: 'com.android.library'
 
-def _nodeTargetSdkVersion = ((rootProject?.ext?.properties?.targetSdkVersion) ?: 22)
+def _nodeTargetSdkVersion = 22
 
 android {
     compileSdkVersion ((rootProject?.ext?.properties?.compileSdkVersion) ?: 23)
